@@ -1,5 +1,5 @@
-进入虚拟环境open-mmlab
-source activate open-mmlab
+进入虚拟环境Image_Clas_pytorch（使用自己的虚拟环境或者Docker即可）
+source activate Image_Clas_pytorch
 
 
 # train.py
@@ -13,8 +13,7 @@ source activate open-mmlab
 
 
 # onnx-sim
-（1）打开终端，进入onnx-sim虚拟环境。
+（1）打开终端，进入onnx-sim虚拟环境。（进入自己的onnx-sim环境）
      source activate onnx-sim
 （2）执行onnx-sim
      python -m onnxsim 【onnx源文件所在路径】 【onnx-sim文件保存路径】 --input-shape 1,3,224,224
-
